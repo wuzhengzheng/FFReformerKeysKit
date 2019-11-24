@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '8.0'
+
+target 'FFReformerKeysKit_Example' do
+  pod 'FFReformerKeysKit', :path => '../'
+
+  target 'FFReformerKeysKit_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
